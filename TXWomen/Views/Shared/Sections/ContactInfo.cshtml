@@ -1,0 +1,72 @@
+﻿<!-- FOOTER -->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+
+            <!-- Contact Info -->
+            <div class="col-md-5" id="contact-info">
+                <h5>Contact <span>Info</span></h5>
+                <ul class="contact-info">
+                    @*<li>
+                        <i class="fa fa-phone"></i>
+                        +1800 1234 5678
+                    </li>*@
+                    <li>
+                        <i class="fa fa-envelope-o"></i>
+                        sara [at] maswired [dot] com
+                    </li>
+                    @*<li>
+                        <i class="fa fa-map-marker"></i>
+                        #12, Some Street County 123456
+                    </li>*@
+                    @*<li>
+                        <div class="f-social">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-google-plus"></a>
+                            <a href="#" class="fa fa-dribbble"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                    </li>*@
+                </ul>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="col-md-7">
+                <h5>Shoot a <span>message!</span></h5>
+                <form id="contactForm" action="php/contact.php" method="post">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input name="senderName" id="senderName" type="text" placeholder="Name" required="required" />
+                            <input type="email" name="senderEmail" id="senderEmail" placeholder="Email address" required="required" />
+                        </div>
+                        <div class="col-md-6">
+                            <textarea rows="4" name="message" id="message" placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>*Note: Ping us if you have questions about our work, want to give us money to fund our work, or just want to drop us a line!</p>
+                        </div>
+                        <div class="col-md-6">
+                            <button type="submit" class="btn-main pull-right">Send</button>
+                        </div>
+                    </div>
+                </form>
+                <div id="sendingMessage" class="statusMessage">
+                    <p><i class="fa fa-spin fa-spinner"></i> Sending your message. Please wait...</p>
+                </div>
+                <div id="successMessage" class="successmessage">
+                    <p><i class="fa fa-check"></i> Thanks for sending your message! We'll get back to you shortly.</p>
+                </div>
+                <div id="failureMessage" class="errormessage">
+                    <p><i class="fa fa-close"></i> There was a problem sending your message. Please try again.</p>
+                </div>
+                <div id="incompleteMessage" class="statusMessage">
+                    <p><i class="fa fa-warning"></i> Please complete all the fields in the form before sending.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER -->

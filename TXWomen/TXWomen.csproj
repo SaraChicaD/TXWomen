@@ -288,6 +288,11 @@
     <Content Include="Views\Shared\_LayoutSleek.cshtml" />
     <Content Include="Views\Shared\Sections\_Intro.cshtml" />
     <Content Include="Views\Shared\Sections\_Services.cshtml" />
+    <Content Include="Views\Shared\Sections\Rosie.cshtml" />
+    <Content Include="Views\Shared\Sections\Irma.cshtml" />
+    <Content Include="Views\Shared\Sections\ContactInfo.cshtml" />
+    <Content Include="Views\Shared\Sections\About.cshtml" />
+    <Content Include="Views\Shared\Sections\InterviewList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
