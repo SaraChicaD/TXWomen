@@ -197,6 +197,7 @@
     <Content Include="Content\sleek-theme\print.css" />
     <Content Include="Content\sleek-theme\reset.css" />
     <Content Include="Content\sleek-theme\screen.css" />
+    <Content Include="Content\sleek-theme\skin-blue.css" />
     <Content Include="Content\sleek-theme\slick.css" />
     <Content Include="Content\sleek-theme\style.css" />
     <Content Include="Content\sleek-theme\SyntaxHighlighter.css" />
@@ -285,9 +286,12 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_LayoutSleek.cshtml" />
+    <Content Include="Views\Shared\Sections\_Intro.cshtml" />
+    <Content Include="Views\Shared\Sections\_Services.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\SleekViews\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
