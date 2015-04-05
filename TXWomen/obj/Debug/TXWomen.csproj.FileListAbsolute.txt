@@ -58,3 +58,4 @@ C:\SF.Code\TXWomen\TXWomen\bin\Microsoft.Owin.Security.Twitter.xml
 C:\SF.Code\TXWomen\TXWomen\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\SF.Code\TXWomen\TXWomen\obj\Debug\TXWomen.dll
 C:\SF.Code\TXWomen\TXWomen\obj\Debug\TXWomen.pdb
+C:\SF.Code\TXWomen\TXWomen\obj\Debug\TXWomen.csprojResolveAssemblyReference.cache
