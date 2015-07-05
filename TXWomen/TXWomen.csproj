@@ -293,6 +293,11 @@
     <Content Include="Views\Shared\Sections\ContactInfo.cshtml" />
     <Content Include="Views\Shared\Sections\About.cshtml" />
     <Content Include="Views\Shared\Sections\InterviewList.cshtml" />
+    <Content Include="Views\Shared\Sections\RosieVideoEd.cshtml" />
+    <Content Include="Views\Shared\Sections\RosieVideoPolitics.cshtml" />
+    <Content Include="Views\Shared\Sections\RosieVideoFeminism.cshtml" />
+    <Content Include="Views\Shared\Sections\RosieVideoFamily.cshtml" />
+    <Content Include="Views\Shared\Sections\TwoVideos1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
