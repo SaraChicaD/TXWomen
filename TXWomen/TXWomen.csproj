@@ -207,7 +207,7 @@
     <Content Include="fonts\Sleek-Fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\Sleek-Fonts\slick.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Site.css" />
+    <Content Include="Content\sleek-theme\Site.css" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="fonts\Sleek-Fonts\fontawesome-webfont.eot" />

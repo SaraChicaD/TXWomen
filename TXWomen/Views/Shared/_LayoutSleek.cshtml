@@ -14,6 +14,7 @@
     <link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,100italic,300,300italic,600,700' rel='stylesheet' type='text/css'>
 
     @Styles.Render("~/Content/sleek-theme")
+    @Styles.Render("~/fonts")
     @RenderSection("styles", required: false)
 </head>
 
@@ -36,14 +37,17 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                @Html.ActionLink("Home", "Index", "Home", new { @class = "navbar-brand" })
+                                @*@Html.ActionLink("Home", "Index", "Home", new { @class = "navbar-brand" })*@
                             </div>
                             <!-- Collect the nav links, forms, and other content for toggling -->
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav navbar-right">
+                                <ul class="nav navbar-nav">
                                     <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                                    <li><a href="#">Sample Page</a></li>
-                                    <li>@Html.ActionLink("Contact", "Contact", "Home", new { @class = "page-scroll" })</li>
+                                    <li><a href="">About</a></li>
+                                    <li><a href="">Rosie Castro</a></li>
+                                    <li><a href="">Irma Mireles</a></li>
+                                    <li><a href="">Videos</a></li>
+                                    @*<li>@Html.ActionLink("Contact", "Contact", "Home", new { @class = "page-scroll" })</li>*@
                                 </ul>
                             </div>
                             <!-- /.navbar-collapse -->
@@ -57,6 +61,8 @@
     @Scripts.Render("~/bundles/modernizr")
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/custom")
+    @Scripts.Render("~/bundles/respond")
     @Scripts.Render("~/bundles/sleek-theme")
     @RenderSection("scripts", required: false)
 </body>
